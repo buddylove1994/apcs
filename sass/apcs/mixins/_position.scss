@@ -1,0 +1,11 @@
+// Position an element anywhere relative to its parent
+@mixin position($position) {
+  $vertical: nth($position, 1);
+  $horizontal: nth($position, 2);
+
+  @if $vertical == top { top: 0; }
+  @if $vertical == bottom { bottom: 0; }
+  @if $horizontal == left { left: 0; }
+  @if $horizontal == right { right: 0; }
+  @if $horizontal == center { left: 0; right: 0; }
+}
