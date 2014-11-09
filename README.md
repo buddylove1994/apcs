@@ -1,2 +1,2 @@
-apcs
+AP Computer Science
 ====
