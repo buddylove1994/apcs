@@ -5,8 +5,7 @@
  * and it can be reused and renamed to suit your needs.
  */
 
-
-// import statements up here
+// your import statements up here
 
 class Template
 {
