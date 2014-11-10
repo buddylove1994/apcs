@@ -4,10 +4,10 @@ We'll be using Github pretty extensively for things like code distribution, coll
 
 I **strongly** encourage you each to create an account. It's not required or anything, but in doing so, you'll be able to work on the code we'll be uploading to this repository and it makes keeping track of everyone's things *so* much easier. You guys will also be able to help each other with your codes avaliable at all times. Once you've made an account, go ahead and fork and edit the *emails.md* file (then submit a pull request on the right).
 
-# Current Files
+## Current Files
 - *template.java*, the base class and main method for running programs
 - *reader.java*, a demonstration of the Scanner class
 
-# Upcoming
+## Upcoming
 - *generator.java*, a demonstration of the Random class
 - Chapter 4 code answers from past exercises, maybe?
