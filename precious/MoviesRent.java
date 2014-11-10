@@ -43,6 +43,12 @@ class MoviesRent
 
             // User selected top-pick?
             if (reader.nextInt() == 1) {
+                // Empty stock?
+                if (stockTop == 0) {
+                    System.out.println("There are no top-picked movies left. Please consider oldies instead.");
+                    continue; // start over
+                }
+
                 System.out.println("There are " + stockTop + " more of top-picked movies left. How many do you want to rent?");
                 int currentRequest = reader.nextInt(); // save temporarily to store/dump depending on if/else
 
@@ -63,6 +69,12 @@ class MoviesRent
                     System.out.println("Thank you for shopping! Your total is $" + totalCostTop);
                 }
             } else {
+                // Empty stock?
+                if (stockOld == 0) {
+                    System.out.println("There are no oldies left. Please consider top-picked movies instead.");
+                    continue; // start over
+                }
+
                 System.out.println("There are " + stockOld + " more of oldies movies left. How many do you want to rent?");
                 int currentRequest = reader.nextInt(); // save temporarily to store/dump depending on if/else
 
