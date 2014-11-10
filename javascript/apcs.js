@@ -38,7 +38,7 @@ $(function() {
     // JSON urls and values to get API timestamps from
     var api = {
       'dropbox': {
-        'url': 'http://rothanak.x10.mx/dropbox/axwbdmrr21lmukx/AACYSW9eWG5TLdpCbmZQ9mcza',
+        'url': 'http://rothanak.x10.mx/dropbox/kgdz131pl8cnoad/AADc1DUR-f_TW_VY-TfoKOBIa',
         'value': 'last_modified'
       },
       'github': {
